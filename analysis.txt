@@ -1,9 +1,13 @@
-ניתוח נתונים: סיבות מוות מובילות בארה"ב
+Data Analysis: Leading Causes of Death in the United States
 
-מערך הנתונים מראה נתונים על תמותה ואוכלוסייה לאורך שנים.
-מטריצת הקורלציה הראתה ממצאים עיקריים:
+The dataset analyzes mortality and population data over several years. The correlation matrix revealed key findings:
 
-1. קורלציה חיובית חזקה מאוד (0.99) בין 'Population' (אוכלוסייה) לבין 'Deaths' (מקרי מוות). זהו קשר הגיוני מאוד - ככל שיש יותר אנשים במדינה, יש יותר מקרי מוות בסך הכל.
-2. קורלציה שלילית חלשה בין 'Year' (שנה) לבין 'Crude Rate' (שיעור תמותה גולמי). זה מראה שלאורך השנים, שיעור התמותה ירד מעט.
+1.  A very strong positive correlation (0.99) between 'Population' and 'Deaths'. This is a logical relationship—as the total population of the country increases, the total number of deaths generally increases as well.
 
-התרשים 'correlation_heatmap.png' ממחיש את הקשרים הללו בצבעים.
+2.  A weak negative correlation between 'Year' and 'Crude Rate'. This suggests that over the years, the overall crude death rate has slightly decreased, indicating minor improvements in health or medical care over time.
+
+The 'correlation_heatmap.png' diagram visually illustrates these relationships using colors.
+
+Additionally, I utilized AI to enhance the visualization by adding a regression line to the scatter plot between population and deaths ('regression_plot.png'), which clearly visualizes the strong linear trend.
+
+
